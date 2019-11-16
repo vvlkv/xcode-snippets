@@ -63,7 +63,7 @@ private enum Constants {
 ### Private enum layouts
 Prefix | Description
 --- | ---
-pec | Creates a private enum with name Layouts
+pel | Creates a private enum with name Layouts
 
 <details>
 <summary>Example</summary>
