@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pel</string>
+	<string>plv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private enum Layouts {
-    &lt;#variables#&gt;
-}</string>
+	<string>private lazy var &lt;#name#&gt;: &lt;#type#&gt; = {
+    &lt;#code#&gt;
+}()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B3D725D5-2765-4CDD-B72F-872CA14862D2</string>
+	<string>15738697-A20E-4C5F-B1F4-1E686B7F2B9A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Creates private enum with name Layouts</string>
+	<string>Creates a private lazy variable</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Private enum layouts</string>
+	<string>Private lazy variable</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

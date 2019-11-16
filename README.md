@@ -15,12 +15,14 @@ This repo contains:
 * [Static let CGFloat](#static-let-cgfloat)
 * [Private enum constants](#private-enum-constants)
 * [Private enum layouts](#private-enum-layouts)
+* [Lazy var](#private-var)
+* [Private lazy var](#private-lazy-var)
 * [Class template](#class-template)
 --------
 ### Static let
 Prefix | Description
 --- | ---
-sl | Creates static let
+sl | Creates a static let
 
 <details>
 <summary>Example</summary>
@@ -33,7 +35,7 @@ static let <#name#> = <#value#>
 ### Static let CGFloat
 Prefix | Description
 --- | ---
-slf | Creates static let of CGFloat type
+slf | Creates a static let of CGFloat type
 
 <details>
 <summary>Example</summary>
@@ -46,7 +48,7 @@ static let <#name#>: CGFloat = <#value#>
 ### Private enum constants
 Prefix | Description
 --- | ---
-pec | Creates private enum with name Constants
+pec | Creates a private enum with name Constants
 
 <details>
 <summary>Example</summary>
@@ -61,7 +63,7 @@ private enum Constants {
 ### Private enum layouts
 Prefix | Description
 --- | ---
-pec | Creates private enum with name Layouts
+pec | Creates a private enum with name Layouts
 
 <details>
 <summary>Example</summary>
@@ -70,6 +72,36 @@ pec | Creates private enum with name Layouts
 private enum Layouts {
     <#variables#>
 }
+```
+</details>
+
+### Private var
+Prefix | Description
+--- | ---
+lv | Creates a lazy variable
+
+<details>
+<summary>Example</summary>
+
+```swift
+lazy var <#name#>: <#type#> = {
+    <#code#>
+}()
+```
+</details>
+
+### Private lazy var
+Prefix | Description
+--- | ---
+plv | Creates a private lazy variable
+
+<details>
+<summary>Example</summary>
+
+```swift
+private lazy var <#name#>: <#type#> = {
+    <#code#>
+}()
 ```
 </details>
 

@@ -10,31 +10,31 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>class &lt;#name#&gt;: &lt;#super class#&gt; {
-
+    
     // MARK: - Variables
-
+    
     &lt;#private let block#&gt;
-
+    
     &lt;#private var block#&gt;
-
+    
     &lt;#public let block#&gt;
-
+    
     &lt;#public var block#&gt;
-
+    
     // MARK: - Initializers
-
+    
     &lt;#initializers block#&gt;
-
+    
     // MARK: - Overrides
-
+    
     &lt;#override functions block#&gt;
-
+        
     // MARK: - Public functions
-
+    
     &lt;#public functions block#&gt;
-
+    
     // MARK: - Private functions
-
+    
     &lt;#private functions block#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -42,12 +42,12 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Creates a class template with marks</string>
+	<string>Creates a class with marks</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Class template</string>
+	<string>Class instance</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
