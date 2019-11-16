@@ -21,43 +21,66 @@ This repo contains:
 Prefix | Description
 --- | ---
 sl | Creates static let
-#### Example
+
+<details>
+<summary>Example</summary>
+
 ```swift
 static let <#name#> = <#value#>
 ```
+</details>
+
 ### Static let CGFloat
 Prefix | Description
 --- | ---
 slf | Creates static let of CGFloat type
-#### Example
+
+<details>
+<summary>Example</summary>
+
 ```swift
 static let <#name#>: CGFloat = <#value#>
 ```
+</details>
+
 ### Private enum constants
 Prefix | Description
 --- | ---
 pec | Creates private enum with name Constants
-#### Example
+
+<details>
+<summary>Example</summary>
+
 ```swift
 private enum Constants {
     <#variables#>
 }
 ```
+</details>
+
 ### Private enum layouts
 Prefix | Description
 --- | ---
 pec | Creates private enum with name Layouts
-#### Example
+
+<details>
+<summary>Example</summary>
+
 ```swift
 private enum Layouts {
     <#variables#>
 }
 ```
+</details>
+
 ### Class template
 Prefix | Description
 --- | ---
 cls | Creates a class template with marks
-#### Example
+
+<details>
+<summary>Example</summary>
+
 ```swift
 class <#name#>: <#super class#> {
 
@@ -88,3 +111,4 @@ class <#name#>: <#super class#> {
     <#private functions block#>
 }
 ```
+</details>
